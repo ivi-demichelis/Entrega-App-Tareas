@@ -143,6 +143,10 @@ main .contain-filters button{
 .btn-darkmode p{
     font-size: 20px;
 }
+div.contain-tareas{
+    padding: 10%;
+    padding-top: 0;
+}
 
 .contain-tareas{
     display: flex;
@@ -155,7 +159,7 @@ main .contain-filters button{
     justify-content: space-between;
     align-content: space-between;  
     margin: 40px;  
-    height: fit-content;
+    height:min-content;
 }
 
 .card{
@@ -164,13 +168,16 @@ main .contain-filters button{
     border-color: black solid;
     border-width: 2px;
     border-radius: 5px;
-    box-shadow: 0 0 20px 3px rgb(37, 37, 37)
+    box-shadow: 0 0 20px 3px rgb(37, 37, 37);
 }
 
 .card p{
-    padding: 13px;
+    padding: 2px;
 }
 
+div.card{
+    width: 190px;
+}
 .card button{
     font-size: 13px;
     font-weight: bold;
@@ -180,10 +187,10 @@ main .contain-filters button{
     margin: 2px;
     padding: 4px;
 }
-
-.card button img{
-    font-size: 13px;
+.card button:hover{
+    background-color: #d0dff1;
 }
+
 
 @media (max-width: 600px){
     
